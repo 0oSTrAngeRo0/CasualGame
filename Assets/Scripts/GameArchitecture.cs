@@ -7,6 +7,7 @@ namespace Game
         protected override void Init()
         {
             // Utilities
+            RegisterUtility<ILogUtility>(new DebugLogUtility());
 
             // Models
 
