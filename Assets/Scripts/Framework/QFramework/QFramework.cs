@@ -7,7 +7,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace QFramework
+namespace Game
 {
 	#region Architecture
 
@@ -62,7 +62,6 @@ namespace QFramework
 				return mArchitecture;
 			}
 		}
-
 
 		static void MakeSureArchitecture()
 		{
